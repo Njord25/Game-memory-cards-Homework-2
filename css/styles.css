@@ -1,0 +1,146 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3e50b4;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+header {
+  height: 50px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 590px) {
+  header {
+    margin-bottom: 50px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 25px;
+  }
+}
+
+.scores {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.scores p, .scores h1 {
+  display: inline-block;
+}
+
+.title {
+  text-align: center;
+}
+
+.button-reset {
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  display: inline-block;
+  color: #FFF;
+  background: #C0392B;
+  padding: 7px 20px;
+  white-space: nowrap;
+  border-radius: 100px;
+  margin: 10px 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 10%;
+}
+
+.rojo:hover {
+  background: #ff5242;
+}
+
+.rojo:active {
+  -webkit-box-shadow: 0px 2px 0px 0px #C0392B;
+          box-shadow: 0px 2px 0px 0px #C0392B;
+}
+
+@media screen and (min-width: 590px) {
+  .button-reset {
+    width: 30%;
+    padding: 16px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .button-reset {
+    width: 30%;
+    padding: 4px;
+    font-size: 16px;
+  }
+}
+
+.cards li {
+  background: url(../img/back-card.png) no-repeat center;
+  background-size: contain;
+  border-style: dotted;
+  border-width: 4px;
+  border-color: #000000;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  height: 20vh;
+  margin: 5px;
+  width: 16%;
+}
+
+#show-element {
+  background: url(../img/back-card.png) no-repeat center;
+  background-size: contain;
+}
+
+@media screen and (min-width: 590px) {
+  .cards li {
+    background: url(../img/back-card.png) no-repeat center;
+    background-size: contain;
+  }
+  #show-element {
+    background: url(../img/back-card.png) no-repeat center;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .button-reset {
+    width: 30%;
+    padding: 4px;
+  }
+}
+
+.matched {
+  visibility: hidden;
+}

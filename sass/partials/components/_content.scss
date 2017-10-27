@@ -1,0 +1,38 @@
+.cards li {
+    background: url(../img/back-card.png) no-repeat center;
+    background-size: contain;
+    border-style: dotted; border-width: 4px; border-color: $secondary-color-dark;
+    display: inline-flex;
+    list-style: none;  
+    height: 20vh;
+    margin: 5px;
+    width: 16%;
+}
+
+#show-element {
+    background: url(../img/back-card.png) no-repeat center;
+    background-size: contain;
+}
+
+@media screen and (min-width: 590px) {
+    .cards li {
+        background: url(../img/back-card.png) no-repeat center;
+        background-size: contain;
+    }
+
+    #show-element {
+        background: url(../img/back-card.png) no-repeat center;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: 350px) {
+	.button-reset {
+		width: 30%;
+		padding: 4px;
+	}
+}
+
+.matched {
+    visibility: hidden;
+}

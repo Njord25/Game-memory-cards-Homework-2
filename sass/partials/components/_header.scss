@@ -1,0 +1,53 @@
+.scores {
+	width: 100%;
+	display: flex;
+    justify-content: space-around;
+
+	p, h1 {
+		display: inline-block;
+	}
+}
+
+.title {
+	text-align: center;
+}
+
+.button-reset {
+	text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+	text-align:center;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	display:inline-block;
+	color: #FFF;
+	background: $terciary-color;
+	padding: 7px 20px;
+	white-space: nowrap;
+	border-radius: 100px;
+	margin: 10px 5px;
+	transition: all 0.2s ease-in-out;
+	width: 10%;
+	}
+
+	.rojo:hover{
+		background: #ff5242;
+	  }
+	  
+	  .rojo:active{
+		box-shadow: 0px 2px 0px 0px #C0392B;
+	  }
+
+@media screen and (min-width: 590px) {
+	.button-reset {
+		width: 30%;
+		padding: 16px;
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 350px) {
+	.button-reset {
+		width: 30%;
+		padding: 4px;
+		font-size: 16px;
+	}
+}

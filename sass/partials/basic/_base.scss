@@ -1,0 +1,51 @@
+//
+// Base definitions
+//
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3e50b4;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+header {
+    height: 50px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 590px) {
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+}
