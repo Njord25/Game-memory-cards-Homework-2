@@ -1,2 +1,2 @@
-# Game-memory-cards-Homework-2
-Homework-2-Responsive-Design
+# Pokemon Medals Matcher
+HTML5, CSS3 and Javascript memory game.
